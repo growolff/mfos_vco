@@ -258,6 +258,259 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Operational:TL072"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL072"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL072_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL072_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1572,6 +1825,12 @@
 		(uuid "36bb5fa4-2976-491a-8122-80bfd94b6f93")
 	)
 	(junction
+		(at 229.87 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a11897-2e4d-46d5-889f-cf5ab45440f3")
+	)
+	(junction
 		(at 198.12 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1624,6 +1883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba6ff234-1466-4bbf-8416-ea6a5ba9aea5")
+	)
+	(junction
+		(at 194.31 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf718488-ff6a-4ad4-ae72-c060c333968e")
 	)
 	(junction
 		(at 109.22 78.74)
@@ -1863,6 +2128,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 143.51) (xy 200.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c3e30e-81e1-443c-b37f-33372daf5c1b")
+	)
+	(wire
+		(pts
+			(xy 208.28 143.51) (xy 229.87 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d04877-e830-4da3-ab5a-31e5802fe1e1")
+	)
+	(wire
+		(pts
 			(xy 21.59 60.96) (xy 21.59 48.26)
 		)
 		(stroke
@@ -1933,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 130.81) (xy 236.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40775b83-afe2-44a2-9886-ba1d2486a3d7")
+	)
+	(wire
+		(pts
 			(xy 127 86.36) (xy 133.35 86.36)
 		)
 		(stroke
@@ -1940,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "40a9295b-5b71-4197-9fc5-194a871a5c41")
+	)
+	(wire
+		(pts
+			(xy 243.84 130.81) (xy 254 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431026e0-db2d-4c86-9853-5a9f50cad65e")
 	)
 	(wire
 		(pts
@@ -1963,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 161.29 124.46)
+			(xy 160.02 133.35) (xy 194.31 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2010,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "68b26b07-2773-4c1a-bb5d-50fdeb0e507c")
+	)
+	(wire
+		(pts
+			(xy 229.87 143.51) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0a31d3-fba6-4eda-92fc-d7582052524b")
 	)
 	(wire
 		(pts
@@ -2063,13 +2378,33 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 160.02 124.46)
+			(xy 210.82 133.35) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d1581b-6837-4ba8-a427-7f76d18a4271")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 160.02 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d68f451-fa0e-4e05-8cce-62b6efcb3cca")
+	)
+	(wire
+		(pts
+			(xy 194.31 133.35) (xy 194.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6e1fe3-b808-44bc-ad0a-46b075557ce5")
 	)
 	(wire
 		(pts
@@ -2150,6 +2485,16 @@
 			(type default)
 		)
 		(uuid "a01e3b93-897d-46d5-96af-d2d14566fb96")
+	)
+	(wire
+		(pts
+			(xy 204.47 128.27) (xy 204.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60fd32c-5a84-4892-9c75-27046dbc4aaf")
 	)
 	(wire
 		(pts
@@ -2350,6 +2695,26 @@
 			(type default)
 		)
 		(uuid "d091cffb-d726-431c-b2fb-e5803d34d5c5")
+	)
+	(wire
+		(pts
+			(xy 210.82 128.27) (xy 204.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d619aa9e-6fda-4f2d-9103-114d1827cca3")
+	)
+	(wire
+		(pts
+			(xy 226.06 130.81) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ae2337-c045-4d1a-b1ce-85937df9938e")
 	)
 	(wire
 		(pts
@@ -2918,6 +3283,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e006e9d-3b72-4089-838d-3325137bf366")
+		(property "Reference" "#PWR012"
+			(at 204.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e41811a1-58ff-4153-8ae0-1abe0a0a672f")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 123.19 86.36 0)
 		(unit 1)
@@ -3184,6 +3615,92 @@
 				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
 					(reference "#PWR06")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 261.62 133.35 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1ee8fd-8db5-4b86-bf88-94028cdfe6a5")
+		(property "Reference" "U2"
+			(at 261.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ba68815-d606-4f74-a7cc-6a043d7d5252")
+		)
+		(pin "8"
+			(uuid "7f0023e1-3220-4a9b-9a03-d7cf7ad8fee7")
+		)
+		(pin "2"
+			(uuid "57f635f4-2abe-445a-a012-d43f82b5b237")
+		)
+		(pin "3"
+			(uuid "59a2f2b8-19d3-497d-8032-875c27a6f2d6")
+		)
+		(pin "5"
+			(uuid "b1299f39-0aef-417c-90e3-1c575bafb217")
+		)
+		(pin "6"
+			(uuid "7c8289eb-ffd3-49c2-925a-cf439b839e7a")
+		)
+		(pin "7"
+			(uuid "4ef21e82-e5dc-461b-9c83-86094bcf1967")
+		)
+		(pin "1"
+			(uuid "9109c0d5-89e6-4b8d-88f1-ed9589b0c15d")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -3762,6 +4279,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 218.44 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72c4abf7-9c34-4036-a822-3735c46ddb20")
+		(property "Reference" "U2"
+			(at 222.504 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 222.504 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ba68815-d606-4f74-a7cc-6a043d7d5252")
+		)
+		(pin "8"
+			(uuid "7f0023e1-3220-4a9b-9a03-d7cf7ad8fee7")
+		)
+		(pin "2"
+			(uuid "57f635f4-2abe-445a-a012-d43f82b5b237")
+		)
+		(pin "3"
+			(uuid "59a2f2b8-19d3-497d-8032-875c27a6f2d6")
+		)
+		(pin "5"
+			(uuid "b1299f39-0aef-417c-90e3-1c575bafb217")
+		)
+		(pin "6"
+			(uuid "7c8289eb-ffd3-49c2-925a-cf439b839e7a")
+		)
+		(pin "7"
+			(uuid "4ef21e82-e5dc-461b-9c83-86094bcf1967")
+		)
+		(pin "1"
+			(uuid "9109c0d5-89e6-4b8d-88f1-ed9589b0c15d")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 30.48 60.96 270)
 		(mirror x)
@@ -3892,6 +4494,93 @@
 				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
 					(reference "R27")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 218.44 130.81 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7989c8fa-3f44-4ee7-9fb3-40b48ef52894")
+		(property "Reference" "U2"
+			(at 219.71 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 215.9 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ba68815-d606-4f74-a7cc-6a043d7d5252")
+		)
+		(pin "8"
+			(uuid "7f0023e1-3220-4a9b-9a03-d7cf7ad8fee7")
+		)
+		(pin "2"
+			(uuid "57f635f4-2abe-445a-a012-d43f82b5b237")
+		)
+		(pin "3"
+			(uuid "59a2f2b8-19d3-497d-8032-875c27a6f2d6")
+		)
+		(pin "5"
+			(uuid "b1299f39-0aef-417c-90e3-1c575bafb217")
+		)
+		(pin "6"
+			(uuid "7c8289eb-ffd3-49c2-925a-cf439b839e7a")
+		)
+		(pin "7"
+			(uuid "4ef21e82-e5dc-461b-9c83-86094bcf1967")
+		)
+		(pin "1"
+			(uuid "9109c0d5-89e6-4b8d-88f1-ed9589b0c15d")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -4592,6 +5281,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 215.9 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a970fc5d-4458-4d23-be18-18dc5f061af9")
+		(property "Reference" "#PWR011"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 215.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af4cfee-da22-4041-b2b7-e062c71e32b4")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b01bbff8-dd44-4c99-bdf1-486854b9045f")
+		(property "Reference" "R1"
+			(at 239.522 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 239.776 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.776 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b706424-f457-487a-981f-56cf7d34bb6a")
+		)
+		(pin "1"
+			(uuid "448c2c25-5c95-468d-8966-c1f2c2fe0b24")
+		)
+		(instances
+			(project "mfos_vco"
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 149.86 67.31 270)
 		(unit 1)
@@ -4950,6 +5772,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 204.47 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8bcfe98-239d-43e7-a395-9710b1eb160b")
+		(property "Reference" "C1"
+			(at 203.835 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 203.835 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fd3c7f0-15cc-4dc7-b3b2-0fc08d035a4c")
+		)
+		(pin "1"
+			(uuid "0d622607-e41e-4f89-b5b3-932069952821")
+		)
+		(instances
+			(project "mfos_vco"
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 96.52 60.96 90)
 		(unit 1)
@@ -5231,6 +6121,72 @@
 			(project "mfos_vco"
 				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 215.9 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71ae19d-ebe2-4dac-81c4-c43082d6c644")
+		(property "Reference" "#PWR010"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d261b0-f607-4bef-a9bf-77a4b91434f3")
+		)
+		(instances
+			(project ""
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
