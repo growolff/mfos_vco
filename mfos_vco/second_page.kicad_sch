@@ -5123,7 +5123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 102.87 68.58 0)
 			(effects
 				(font
@@ -5257,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 73.66 117.475 0)
 			(effects
 				(font
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 92.71 107.95 0)
 			(effects
 				(font
@@ -5437,7 +5437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 152.4 46.99 0)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 45.72 109.22 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 49.53 66.04 0)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -5746,7 +5746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 195.58 24.13 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 38.1 33.02 0)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -6090,7 +6090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -6158,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 66.04 52.07 90)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 90.17 76.2 90)
 			(effects
 				(font
@@ -6530,7 +6530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 195.58 34.29 0)
 			(effects
 				(font
@@ -6599,7 +6599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -6667,7 +6667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -6738,7 +6738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 66.04 40.64 90)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 219.71 27.94 0)
 			(effects
 				(font
@@ -6930,7 +6930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 167.64 25.4 0)
 			(effects
 				(font
@@ -6998,7 +6998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 118.11 86.36 0)
 			(effects
 				(font
@@ -7068,7 +7068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c2f3ced-b146-4396-9537-3076d99535a6")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 151.13 29.1398 0)
 			(effects
 				(font
@@ -7084,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 143.51 34.29 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 		(instances
 			(project ""
 				(path "/db27d43e-bcf4-48a8-8785-18123cee165a/ea17d4b3-540b-4353-b4a9-31ae80237135"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 143.51 15.24 0)
 			(effects
 				(font
@@ -7238,7 +7238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 158.75 108.585 0)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 59.69 21.59 0)
 			(effects
 				(font
@@ -7421,7 +7421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -7556,7 +7556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 99.695 120.65 0)
 			(effects
 				(font
@@ -7801,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -7871,7 +7871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 143.51 22.86 0)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -8073,7 +8073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -8141,7 +8141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -8212,7 +8212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -8279,7 +8279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 85.09 35.56 0)
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 125.73 22.86 0)
 			(effects
 				(font
@@ -8784,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -8852,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 167.64 34.29 0)
 			(effects
 				(font
@@ -8922,7 +8922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 27.94 41.91 0)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -9058,7 +9058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 69.85 21.59 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -9297,7 +9297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 59.69 30.48 0)
 			(effects
 				(font
@@ -9365,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 140.97 109.855 0)
 			(effects
 				(font
@@ -9740,7 +9740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 226.06 29.845 0)
 			(effects
 				(font
@@ -9982,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -10191,7 +10191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 69.85 105.41 0)
 			(effects
 				(font
@@ -10259,7 +10259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -10326,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 72.39 68.58 90)
 			(effects
 				(font
@@ -10414,7 +10414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 160.02 33.02 0)
 			(effects
 				(font
@@ -10482,7 +10482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 81.28 76.2 90)
 			(effects
 				(font
@@ -10633,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -10701,7 +10701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 45.72 100.33 0)
 			(effects
 				(font
@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 116.84 64.77 0)
 			(effects
 				(font
@@ -10994,7 +10994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 96.52 20.32 0)
 			(effects
 				(font
@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
 			(at 72.39 76.2 90)
 			(effects
 				(font
@@ -11518,7 +11518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 127 38.1 0)
 			(effects
 				(font
@@ -11586,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:R_SMD_AND_THT"
 			(at 69.85 116.84 0)
 			(effects
 				(font
@@ -12049,7 +12049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 212.09 30.48 0)
 			(effects
 				(font
