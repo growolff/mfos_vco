@@ -2824,6 +2824,12 @@
 		(uuid "14cf70f1-ddbe-4972-9e3c-635026423c22")
 	)
 	(junction
+		(at 167.64 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15160836-24d0-4ea4-a69a-e834fefedaa0")
+	)
+	(junction
 		(at 69.85 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3799,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 29.21) (xy 167.64 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6535a70d-6c1b-4d1e-bc10-17d52aab1d4d")
+	)
+	(wire
+		(pts
 			(xy 139.7 64.77) (xy 139.7 72.39)
 		)
 		(stroke
@@ -4389,7 +4405,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 27.94) (xy 167.64 31.75)
+			(xy 167.64 27.94) (xy 167.64 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4789,6 +4805,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 29.21) (xy 167.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e898781c-0eae-4688-908d-d0e4f439116f")
+	)
+	(wire
+		(pts
 			(xy 40.64 43.18) (xy 41.91 43.18)
 		)
 		(stroke
@@ -4950,6 +4976,28 @@
 		(uuid "083acf66-4268-451a-a031-be692c29573b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SQR"
+		(shape input)
+		(at 173.99 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09a9d02a-925c-4c80-9fa9-72de5194f284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7852 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
