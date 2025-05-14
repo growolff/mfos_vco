@@ -2583,6 +2583,12 @@
 		(uuid "aff1d203-0026-41cc-9349-8021ab0bfdf9")
 	)
 	(junction
+		(at 83.82 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3529ec3-fbbc-4a30-ba6d-fca56f064b53")
+	)
+	(junction
 		(at 259.08 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2611,6 +2617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c85b72d8-2904-496c-9bf5-6188778e4bed")
+	)
+	(junction
+		(at 106.68 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9507ae0-e359-41cf-b0f6-91e23bbe29b1")
 	)
 	(junction
 		(at 273.05 97.79)
@@ -2809,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "15a3b8ce-47d2-44ed-b4a8-d2a80425fc32")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.22) (xy 92.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dc9c75-aab0-448f-bbd9-dec62bbb83ac")
 	)
 	(wire
 		(pts
@@ -3082,13 +3104,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 83.82 116.84)
+			(xy 83.82 107.95) (xy 83.82 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4702192d-159d-4589-bbb6-89ce9d06aed3")
+	)
+	(wire
+		(pts
+			(xy 205.74 40.64) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c7439c-42cc-4505-b088-1a63b813dc32")
 	)
 	(wire
 		(pts
@@ -3222,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 45.72) (xy 158.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da18cd7-aff9-4f63-9381-d00c66907051")
+	)
+	(wire
+		(pts
 			(xy 184.15 33.02) (xy 184.15 35.56)
 		)
 		(stroke
@@ -3252,6 +3294,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 109.22) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7418699d-35dc-462a-832c-c412a6b77a55")
+	)
+	(wire
+		(pts
 			(xy 83.82 99.06) (xy 83.82 107.95)
 		)
 		(stroke
@@ -3269,6 +3321,16 @@
 			(type default)
 		)
 		(uuid "764b95d5-40bd-4e47-9db3-cab21c21e7cf")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.22) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77510520-99f9-4278-a5e0-f01237d901d9")
 	)
 	(wire
 		(pts
@@ -3649,6 +3711,16 @@
 			(type default)
 		)
 		(uuid "bd4c0520-a77e-4505-b5bf-4fc7ea895819")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb6f35-fe49-420b-8b76-c0ea6be3bb14")
 	)
 	(wire
 		(pts
@@ -4042,7 +4114,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 106.68 119.38)
+			(xy 106.68 88.9) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4302,29 +4374,7 @@
 			)
 		)
 	)
-	(global_label "U1A_b"
-		(shape input)
-		(at 166.37 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83a98c17-7512-488a-af00-592c6439b4ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 87.7896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U1B_e"
+	(global_label "U1B_c"
 		(shape input)
 		(at 138.43 53.34 180)
 		(fields_autoplaced yes)
@@ -4368,7 +4418,7 @@
 			)
 		)
 	)
-	(global_label "U1A_e"
+	(global_label "U1A_c"
 		(shape input)
 		(at 146.05 53.34 0)
 		(fields_autoplaced yes)
@@ -4381,28 +4431,6 @@
 		(uuid "accf8cef-2928-4c87-a61f-9ad5e36b5928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U1A_b"
-		(shape input)
-		(at 153.67 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aedd436e-69a4-4f0a-b178-c1511fd6f5f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4004 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -5308,6 +5336,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36bb8dae-08ae-4ac7-b5b0-df065eab11ca")
+		(property "Reference" "Re24"
+			(at 96.52 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 96.52 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 96.774 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 96.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c3eb7e-35fa-4c82-ac60-d1351af32ce1")
+		)
+		(pin "2"
+			(uuid "252d827d-fe9f-4e41-b2fe-cf737ab596ea")
+		)
+		(instances
+			(project "mfos_vco"
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a/da218509-bd5d-4011-8fb3-339b9a173cb1"
+					(reference "Re24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 273.05 77.47 0)
 		(unit 2)
@@ -5776,7 +5872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 140.97 96.52 0)
 			(effects
 				(font
@@ -5923,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 273.05 92.71 0)
 			(effects
 				(font
@@ -6076,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 96.52 133.35 0)
 			(effects
 				(font
@@ -7335,7 +7431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -7548,7 +7644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 259.08 113.03 0)
 			(effects
 				(font
@@ -8143,6 +8239,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1f28f4-b913-467c-935e-4481028395da")
+		(property "Reference" "#PWR051"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7ad965-3f33-4cf3-aef3-6a7fa671dac0")
+		)
+		(instances
+			(project "mfos_vco"
+				(path "/db27d43e-bcf4-48a8-8785-18123cee165a/da218509-bd5d-4011-8fb3-339b9a173cb1"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 74.93 132.08 90)
 		(unit 1)
@@ -8657,7 +8819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 215.9 87.63 0)
 			(effects
 				(font
@@ -8949,7 +9111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 271.78 59.69 0)
 			(effects
 				(font
@@ -9424,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "custom_footprints:cp_p5.0"
 			(at 186.69 128.27 0)
 			(effects
 				(font
